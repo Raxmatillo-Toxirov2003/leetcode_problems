@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form name="form1">
+        <h2>enter your name</h2><br>
+        <input type="text" size="20" name="ism"><br><br>
+        <input type="text" size="20" name="javob"><br><br>
+        <input type="button" value="chiqarish" onclick="ishla()"><br>
+    </form>
+
+    <script>
+        function ishla() {
+            var ab = form1.ism.value;
+            if (ab == "Ali") {
+                form1.javob.value = "Salom og'a";
+            }
+            if (ab == "Ahmad") {
+                form1.javob.value = "Ko'rinmayapsan do'stim";
+            } else
+                form1.javob.value = "Sizni tanimayapman";
+        }
+    </script>
+</body>
+
+</html>
