@@ -8,6 +8,7 @@ var searchInsert = function(nums, target) {
         if (nums[i] == target)
             return i;
     }
+
     nums.push(target);
     nums.sort((a, b) => a - b);
     return nums.indexOf(target);
