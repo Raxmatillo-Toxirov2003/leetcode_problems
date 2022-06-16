@@ -2,7 +2,29 @@
 <html lang="en">
 
 <body>
-    <script src="findDisappearedNumbers.js"></script>
+    <script>
+        var minimumTotal = function(triangle) {
+            let result = 0;
+
+            for (let i = 0; i < triangle.length; i++) {
+                let my_min = Math.min.apply(Math, triangle[i])
+
+                result += my_min;
+            }
+
+            return result
+        };
+
+        let triangle = [
+            [2],
+            [3, 4],
+            [6, 5, 7],
+            [4, 1, 8, 3]
+        ];
+
+        console.log(minimumTotal(triangle))
+    </script>
+    <!-- <script src="findDisappearedNumbers.js"></script> -->
 </body>
 
 </html>
