@@ -1,7 +1,9 @@
-for (let i = 1; i < 50; i++) {
-    for (let j = 2; j < num; j++) {
+for (let i = 2; i < 50; i++) {
+    for (var j = 2; j < num; j++) {
         if (i % j == 0)
             break
     }
-    print(i)
+    if (i == j) {
+        console.log(i);
+    }
 }
