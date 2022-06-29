@@ -1,0 +1,43 @@
+body {
+    background-attachment: fixed;
+    background-color: rgba(3, 3, 27, 0.863);
+    background-image: linear-gradient(to bottom left, rgba(3, 3, 27, 0.863), rgba(71, 17, 17, 0.5));
+}
+
+.content {
+    width: 50%;
+    padding: 5px;
+    margin: 0px auto;
+    text-align: center;
+    background-image: linear-gradient(to bottom right, rgba(0, 0, 255, 0.5), rgba(253, 253, 15, 0.5));
+    border-radius: 20px;
+}
+
+.form {
+    display: block;
+    text-align: center;
+}
+
+.input {
+    width: 310px;
+    height: 35px;
+    background: #e9effc;
+    border-radius: 5px;
+}
+
+#input:focus {
+    background: rgb(8, 172, 232);
+}
+
+#submit {
+    border-radius: 100px;
+    color: white;
+    background: #ee8108;
+    width: 310px;
+    height: 35px;
+}
+
+a {
+    color: rgb(167, 20, 45);
+    font: none;
+}

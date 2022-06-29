@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Folio</title>
+    <link rel="stylesheet" href="loginStyle.css">
+</head>
+
+<body>
+    <div class="content">
+        <div>
+            <h2><a href="#">Sign in</a></h2>
+        </div>
+        <div class="form" method="post" name="form1">
+            <h3>Login</h3>
+            <input type="text" class="input" id="login" name="login" placeholder="   Login" required minlength="4" maxlength="8" size="20"><br>
+
+            <h3>Password</h3>
+            <input type="password" class="input" id="password" name="password" placeholder="    Password"><br><br>
+
+            <button type="submit" id="submit" onclick="getval()">Submit</button>
+        </div><br>
+
+    </div>
+    <script>
+        var x = "ishladi";
+
+        function getval() {
+            var x = document.getElementById("password").value;
+            console.log(x);
+        }
+    </script>
+</body>
+
+</html>
