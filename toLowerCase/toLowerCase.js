@@ -11,6 +11,7 @@ var toLowerCase = function(s) {
         } else {
             output += s[i];
         }
+        s.toLowerCase
     }
     return output;
 };
